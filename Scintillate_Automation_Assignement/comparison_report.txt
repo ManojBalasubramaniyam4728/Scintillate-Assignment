@@ -1,0 +1,68 @@
+Comparison Report:
+Book Name, Selenium Data, OCR Data, Status
+Book Name12, Unfollow, N/A, Not found in OCR Data
+Book Name11, Think and Grow Rich: THE 21st CENTURY EDITION, N/A, Not found in OCR Data
+Book Name10, Swami Vivekanand (Set of 4 Books) (Hindi) - Karmyog, N/A, Not found in OCR Data
+Book Name16, Rashmirathi (Jnanpith Award Winner, N/A, Not found in OCR Data
+Book Name15, Premchand Ki Shreshth Kahaniyan (Hindi), N/A, Not found in OCR Data
+Book Price19, 129, N/A, Not found in OCR Data
+Book Name14, Anandamath (Hindi), N/A, Not found in OCR Data
+Book Price18, 199, N/A, Not found in OCR Data
+Book Name13, 108 Stories from the Vedas, N/A, Not found in OCR Data
+Book Price17, 284, N/A, Not found in OCR Data
+Book Price16, 195, N/A, Not found in OCR Data
+Book Price15, 159, N/A, Not found in OCR Data
+Book Name19, Sunderkand (Hindi), N/A, Not found in OCR Data
+Book Price14, 119, N/A, Not found in OCR Data
+Book Name18, Wings of Fire: Agni Ki Udaan | ????? ?? ????? | The Inspiring Journey of Dr. APJ Abdul Kalam | An Autobiography | Book in Hindi, N/A, Not found in OCR Data
+Book Price13, 133, N/A, Not found in OCR Data
+Book Name17, Ikigai (Hindi), N/A, Not found in OCR Data
+Book Price12, 1, N/A, Not found in OCR Data
+Book Price11, 139, N/A, Not found in OCR Data
+Book Price10, 425, N/A, Not found in OCR Data
+Book Name6, JEEVAN KE ADHBHUT RAHASYA (HINDI), N/A, Not found in OCR Data
+Book Name7, Time Management (Hindi), N/A, Not found in OCR Data
+Book Name8, Hindi | Stop Overthinking | ????? ?????????? | ?????? ????? ??? ????? | Nick Trenton, N/A, Not found in OCR Data
+Book Name9, Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi), N/A, Not found in OCR Data
+Book Name2, Karamati Mann Hindi ( Translation oF The Magic Mindset ) Preeti Shenoy, N/A, Not found in OCR Data
+Book Name3, Best of Hindi Short Stories (Set of 4 books) - Premchand, N/A, Not found in OCR Data
+Book Name4, Premchand ki Anmol Kahaniya (Hindi), N/A, Not found in OCR Data
+Book Name5, Dark Psychology Secrets & Manipulation (Hindi Edition), N/A, Not found in OCR Data
+Book Name22, Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi), N/A, Not found in OCR Data
+Book Name21, Twins, N/A, Not found in OCR Data
+Book Name20, Godaan (Hindi), N/A, Not found in OCR Data
+{Book Name1, Ajey Hum : Insano ne Kaise Jeeti Duniya - Vol 1 (Hindi of Unstoppable Us), N/A, Not found in OCR Data
+Book Price1, 499, N/A, Not found in OCR Data
+Book Review10, 4.6 out of 5 stars, N/A, Not found in OCR Data
+Book Review11, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review12, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review13, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Review14, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review15, 4.3 out of 5 stars, N/A, Not found in OCR Data
+Book Review16, 4.7 out of 5 stars, N/A, Not found in OCR Data
+Book Review17, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review18, 4.6 out of 5 stars, N/A, Not found in OCR Data
+Book Review19, 4.7 out of 5 stars, N/A, Not found in OCR Data
+Book Review20, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Price22, 149, N/A, Not found in OCR Data
+Book Price21, 1, N/A, Not found in OCR Data
+Book Review21, 3.0 out of 5 stars, N/A, Not found in OCR Data
+Book Price20, 179, N/A, Not found in OCR Data
+Book Review22, 4.4 out of 5 stars}, N/A, Not found in OCR Data
+Book Review5, 3.9 out of 5 stars, N/A, Not found in OCR Data
+Book Review6, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review3, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Review4, 4.3 out of 5 stars, N/A, Not found in OCR Data
+Book Review1, 3.7 out of 5 stars, N/A, Not found in OCR Data
+Book Review2, 5.0 out of 5 stars, N/A, Not found in OCR Data
+Book Price4, 179, N/A, Not found in OCR Data
+Book Price5, 128, N/A, Not found in OCR Data
+Book Price2, 249, N/A, Not found in OCR Data
+Book Price3, 404, N/A, Not found in OCR Data
+Book Price8, 184, N/A, Not found in OCR Data
+Book Review9, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Price9, 149, N/A, Not found in OCR Data
+Book Price6, 149, N/A, Not found in OCR Data
+Book Review7, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Price7, 108, N/A, Not found in OCR Data
+Book Review8, 4.1 out of 5 stars, N/A, Not found in OCR Data

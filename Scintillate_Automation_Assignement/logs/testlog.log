@@ -1,0 +1,283 @@
+2024-06-20 00:45:28,586 - Get The Scraped Data Of Searched Book - INFO - Browser Opened Successfully
+2024-06-20 00:45:32,852 - Get The Scraped Data Of Searched Book - INFO - Successfully Navigated to Amazon url 
+2024-06-20 00:45:45,244 - Get The Scraped Data Of Screenshot - INFO - Sucessfully Opend amazon Apllication
+2024-06-20 00:45:45,844 - Compare Data and Generate Report - INFO - The Amazon Logo Is Having aria-label Attribut and Text Is Amazon.in
+2024-06-20 00:45:46,213 - Compare Data and Generate Report - INFO - Successfully Clicked On the Search Text field
+2024-06-20 00:45:46,545 - Compare Data and Generate Report - INFO - Successfully Entred Hindi Books into Search Text field
+2024-06-20 00:45:49,761 - Compare Data and Generate Report - INFO - Successfully Clicked On the Search Icon
+2024-06-20 00:45:49,881 - Compare Data and Generate Report - INFO - Successfully Waited till Product List Page Loads
+2024-06-20 00:45:49,932 - Compare Data and Generate Report - INFO - Successfully Fetched 22 Number of Product in Product List Page
+2024-06-20 00:45:49,988 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 1 Name
+2024-06-20 00:45:50,158 - Compare Data and Generate Report - INFO - The Book 1 Name is Gora (Hindi)
+2024-06-20 00:45:50,314 - Compare Data and Generate Report - INFO - The Book 1 Price is 179
+2024-06-20 00:45:50,500 - Compare Data and Generate Report - INFO - The Book 1 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:45:50,501 - Compare Data and Generate Report - INFO - Successfully Stored Book 1 Deatils in The Key Value pair 
+2024-06-20 00:45:50,598 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 2 Name
+2024-06-20 00:45:50,735 - Compare Data and Generate Report - INFO - The Book 2 Name is Bahurani (Hindi)
+2024-06-20 00:45:50,800 - Compare Data and Generate Report - INFO - The Book 2 Price is 109
+2024-06-20 00:45:50,888 - Compare Data and Generate Report - INFO - The Book 2 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:45:50,889 - Compare Data and Generate Report - INFO - Successfully Stored Book 2 Deatils in The Key Value pair 
+2024-06-20 00:45:50,979 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 3 Name
+2024-06-20 00:45:51,059 - Compare Data and Generate Report - INFO - The Book 3 Name is Dark Psychology Secrets & Manipulation (Hindi Edition)
+2024-06-20 00:45:51,123 - Compare Data and Generate Report - INFO - The Book 3 Price is 128
+2024-06-20 00:45:51,181 - Compare Data and Generate Report - INFO - The Book 3 Review Rating is 3.9 out of 5 stars
+2024-06-20 00:45:51,182 - Compare Data and Generate Report - INFO - Successfully Stored Book 3 Deatils in The Key Value pair 
+2024-06-20 00:45:51,277 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 4 Name
+2024-06-20 00:45:51,394 - Compare Data and Generate Report - INFO - The Book 4 Name is Best of Hindi Short Stories (Set of 4 books) - Premchand, Jaishankar Prasad, Sarat Chandra, Rabindranath Tagore
+2024-06-20 00:45:51,459 - Compare Data and Generate Report - INFO - The Book 4 Price is 404
+2024-06-20 00:45:51,508 - Compare Data and Generate Report - INFO - The Book 4 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:45:51,508 - Compare Data and Generate Report - INFO - Successfully Stored Book 4 Deatils in The Key Value pair 
+2024-06-20 00:45:51,557 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 5 Name
+2024-06-20 00:45:51,649 - Compare Data and Generate Report - INFO - The Book 5 Name is Premchand ki Anmol Kahaniya (Hindi)
+2024-06-20 00:45:51,704 - Compare Data and Generate Report - INFO - The Book 5 Price is 179
+2024-06-20 00:45:51,755 - Compare Data and Generate Report - INFO - The Book 5 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:45:51,755 - Compare Data and Generate Report - INFO - Successfully Stored Book 5 Deatils in The Key Value pair 
+2024-06-20 00:45:51,821 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 6 Name
+2024-06-20 00:45:51,871 - Compare Data and Generate Report - INFO - The Book 6 Name is Time Management (Hindi)
+2024-06-20 00:45:51,923 - Compare Data and Generate Report - INFO - The Book 6 Price is 108
+2024-06-20 00:45:52,022 - Compare Data and Generate Report - INFO - The Book 6 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:45:52,023 - Compare Data and Generate Report - INFO - Successfully Stored Book 6 Deatils in The Key Value pair 
+2024-06-20 00:45:52,074 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 7 Name
+2024-06-20 00:45:52,135 - Compare Data and Generate Report - INFO - The Book 7 Name is Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi)
+2024-06-20 00:45:52,183 - Compare Data and Generate Report - INFO - The Book 7 Price is 149
+2024-06-20 00:45:52,251 - Compare Data and Generate Report - INFO - The Book 7 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:45:52,252 - Compare Data and Generate Report - INFO - Successfully Stored Book 7 Deatils in The Key Value pair 
+2024-06-20 00:45:52,310 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 8 Name
+2024-06-20 00:45:52,372 - Compare Data and Generate Report - INFO - The Book 8 Name is JEEVAN KE ADHBHUT RAHASYA (HINDI)
+2024-06-20 00:45:52,482 - Compare Data and Generate Report - INFO - The Book 8 Price is 149
+2024-06-20 00:45:52,529 - Compare Data and Generate Report - INFO - The Book 8 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:45:52,529 - Compare Data and Generate Report - INFO - Successfully Stored Book 8 Deatils in The Key Value pair 
+2024-06-20 00:45:52,590 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 9 Name
+2024-06-20 00:45:52,641 - Compare Data and Generate Report - INFO - The Book 9 Name is 108 Stories from the Vedas, the Puranas and the Upanishads for Children (Illustrated) (Hindi) - Story Book for Kids - Bedtime Stories - 4 Years to 10 Years Old - Hindi Stories for Children - Read Aloud to Infants, Toddlers
+2024-06-20 00:45:52,693 - Compare Data and Generate Report - INFO - The Book 9 Price is 133
+2024-06-20 00:45:52,734 - Compare Data and Generate Report - INFO - The Book 9 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:45:52,735 - Compare Data and Generate Report - INFO - Successfully Stored Book 9 Deatils in The Key Value pair 
+2024-06-20 00:45:52,788 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 10 Name
+2024-06-20 00:45:52,946 - Compare Data and Generate Report - INFO - The Book 10 Name is Godaan (Hindi)
+2024-06-20 00:45:53,000 - Compare Data and Generate Report - INFO - The Book 10 Price is 179
+2024-06-20 00:45:53,050 - Compare Data and Generate Report - INFO - The Book 10 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:45:53,050 - Compare Data and Generate Report - INFO - Successfully Stored Book 10 Deatils in The Key Value pair 
+2024-06-20 00:45:53,106 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 11 Name
+2024-06-20 00:45:53,164 - Compare Data and Generate Report - INFO - The Book 11 Name is Baal Vikas Evam Shiksha Shastra (Child Development and Pedagogy) - First Rank Publication
+2024-06-20 00:45:53,222 - Compare Data and Generate Report - INFO - The Book 11 Price is 280
+2024-06-20 00:45:53,273 - Compare Data and Generate Report - INFO - The Book 11 Review Rating is 4.1 out of 5 stars
+2024-06-20 00:45:53,274 - Compare Data and Generate Report - INFO - Successfully Stored Book 11 Deatils in The Key Value pair 
+2024-06-20 00:45:53,391 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 12 Name
+2024-06-20 00:45:53,456 - Compare Data and Generate Report - INFO - The Book 12 Name is Autobiography of A Yogi (Hindi)
+2024-06-20 00:45:53,522 - Compare Data and Generate Report - INFO - The Book 12 Price is 199
+2024-06-20 00:45:53,573 - Compare Data and Generate Report - INFO - The Book 12 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:45:53,574 - Compare Data and Generate Report - INFO - Successfully Stored Book 12 Deatils in The Key Value pair 
+2024-06-20 00:45:53,642 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 13 Name
+2024-06-20 00:45:53,689 - Compare Data and Generate Report - INFO - The Book 13 Name is Premchand Ki Shreshth Kahaniyan (Hindi)
+2024-06-20 00:45:53,745 - Compare Data and Generate Report - INFO - The Book 13 Price is 159
+2024-06-20 00:45:53,789 - Compare Data and Generate Report - INFO - The Book 13 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:45:53,790 - Compare Data and Generate Report - INFO - Successfully Stored Book 13 Deatils in The Key Value pair 
+2024-06-20 00:45:53,860 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 14 Name
+2024-06-20 00:45:53,920 - Compare Data and Generate Report - INFO - The Book 14 Name is Rashmirathi (Jnanpith Award Winner, 1972) - Hindi
+2024-06-20 00:45:53,990 - Compare Data and Generate Report - INFO - The Book 14 Price is 195
+2024-06-20 00:45:54,049 - Compare Data and Generate Report - INFO - The Book 14 Review Rating is 4.7 out of 5 stars
+2024-06-20 00:45:54,050 - Compare Data and Generate Report - INFO - Successfully Stored Book 14 Deatils in The Key Value pair 
+2024-06-20 00:45:54,112 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 15 Name
+2024-06-20 00:45:54,162 - Compare Data and Generate Report - INFO - The Book 15 Name is Hindi | Stop Overthinking | स्टॉप ओवरथिंकिंग | ज़्यादा सोचना बंद कीजिए | Nick Trenton
+2024-06-20 00:45:54,213 - Compare Data and Generate Report - INFO - The Book 15 Price is 184
+2024-06-20 00:45:54,262 - Compare Data and Generate Report - INFO - The Book 15 Review Rating is 4.1 out of 5 stars
+2024-06-20 00:45:54,262 - Compare Data and Generate Report - INFO - Successfully Stored Book 15 Deatils in The Key Value pair 
+2024-06-20 00:45:54,320 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 16 Name
+2024-06-20 00:45:54,384 - Compare Data and Generate Report - INFO - The Book 16 Name is Sunderkand (Hindi)
+2024-06-20 00:45:54,444 - Compare Data and Generate Report - INFO - The Book 16 Price is 129
+2024-06-20 00:45:54,495 - Compare Data and Generate Report - INFO - The Book 16 Review Rating is 4.7 out of 5 stars
+2024-06-20 00:45:54,495 - Compare Data and Generate Report - INFO - Successfully Stored Book 16 Deatils in The Key Value pair 
+2024-06-20 00:45:54,543 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 17 Name
+2024-06-20 00:45:54,603 - Compare Data and Generate Report - INFO - The Book 17 Name is Swami Vivekanand (Set of 4 Books) (Hindi) - Karmyog, Rajyog, Gyanyog, Bhaktiyog
+2024-06-20 00:45:54,668 - Compare Data and Generate Report - INFO - The Book 17 Price is 425
+2024-06-20 00:45:54,725 - Compare Data and Generate Report - INFO - The Book 17 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:45:54,725 - Compare Data and Generate Report - INFO - Successfully Stored Book 17 Deatils in The Key Value pair 
+2024-06-20 00:45:54,783 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 18 Name
+2024-06-20 00:45:54,852 - Compare Data and Generate Report - INFO - The Book 18 Name is Anandamath (Hindi)
+2024-06-20 00:45:54,915 - Compare Data and Generate Report - INFO - The Book 18 Price is 119
+2024-06-20 00:45:54,965 - Compare Data and Generate Report - INFO - The Book 18 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:45:54,966 - Compare Data and Generate Report - INFO - Successfully Stored Book 18 Deatils in The Key Value pair 
+2024-06-20 00:45:55,028 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 19 Name
+2024-06-20 00:45:55,082 - Compare Data and Generate Report - INFO - The Book 19 Name is Ikigai (Hindi)
+2024-06-20 00:45:55,130 - Compare Data and Generate Report - INFO - The Book 19 Price is 284
+2024-06-20 00:45:55,172 - Compare Data and Generate Report - INFO - The Book 19 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:45:55,172 - Compare Data and Generate Report - INFO - Successfully Stored Book 19 Deatils in The Key Value pair 
+2024-06-20 00:45:55,228 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 20 Name
+2024-06-20 00:45:55,284 - Compare Data and Generate Report - INFO - The Book 20 Name is Wings of Fire: Agni Ki Udaan | अग्नि की उड़ान | The Inspiring Journey of Dr. APJ Abdul Kalam | An Autobiography | Book in Hindi
+2024-06-20 00:45:55,333 - Compare Data and Generate Report - INFO - The Book 20 Price is 199
+2024-06-20 00:45:55,371 - Compare Data and Generate Report - INFO - The Book 20 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:45:55,371 - Compare Data and Generate Report - INFO - Successfully Stored Book 20 Deatils in The Key Value pair 
+2024-06-20 00:45:55,433 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 21 Name
+2024-06-20 00:45:55,486 - Compare Data and Generate Report - INFO - The Book 21 Name is Devi Chaudhrani (Hindi)
+2024-06-20 00:45:55,548 - Compare Data and Generate Report - INFO - The Book 21 Price is 119
+2024-06-20 00:45:55,590 - Compare Data and Generate Report - INFO - The Book 21 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:45:55,590 - Compare Data and Generate Report - INFO - Successfully Stored Book 21 Deatils in The Key Value pair 
+2024-06-20 00:45:55,642 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 22 Name
+2024-06-20 00:45:55,694 - Compare Data and Generate Report - INFO - The Book 22 Name is Rahasya (Hindi)
+2024-06-20 00:45:55,747 - Compare Data and Generate Report - INFO - The Book 22 Price is 309
+2024-06-20 00:45:55,789 - Compare Data and Generate Report - INFO - The Book 22 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:45:55,789 - Compare Data and Generate Report - INFO - Successfully Stored Book 22 Deatils in The Key Value pair 
+2024-06-20 00:45:56,186 - Compare Data and Generate Report - INFO - Successfully Written The scraped Data of Book in The Execl
+2024-06-20 00:45:56,188 - Compare Data and Generate Report - INFO - Storing The Data in Json File
+2024-06-20 00:46:00,903 - Compare Data and Generate Report - INFO - Successfully Written The scraped Data of Book in The Json File
+2024-06-20 00:46:02,943 - Compare Data and Generate Report - INFO - Successfully Verifyed The Choose Your Language is pesent
+2024-06-20 00:46:03,889 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Select English Option
+2024-06-20 00:46:05,199 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Continue Button
+2024-06-20 00:46:06,751 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Skip Sign In Option
+2024-06-20 00:46:08,843 - Compare Data and Generate Report - INFO - Sucessfully verifyed Element Is Having Search Amazon.in Text
+2024-06-20 00:46:10,748 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Search TextField
+2024-06-20 00:46:13,454 - Compare Data and Generate Report - INFO - Sucessfully Entered Hindi Books into Search Textfield
+2024-06-20 00:46:14,505 - Compare Data and Generate Report - INFO - Sucessfully Pressed enter key in android keyboard
+2024-06-20 00:46:17,108 - Compare Data and Generate Report - INFO - Sucessfully swiped 3 Times
+2024-06-20 00:46:18,282 - Compare Data and Generate Report - INFO - Sucessfully Captchered Screenshot
+2024-06-20 00:46:21,867 - Compare Data and Generate Report - INFO - Sucessfully Fatched Data From Image
+2024-06-20 00:46:22,009 - Compare Data and Generate Report - INFO - Sucessfully Stored Data Into Excel
+2024-06-20 00:46:22,216 - Compare Data and Generate Report - INFO - Comparison report saved to file: comparison_report.txt
+2024-06-20 00:46:22,216 - Compare Data and Generate Report - INFO - Comparison summary:
+2024-06-20 00:46:22,217 - Compare Data and Generate Report - INFO - Total entries found: 0
+2024-06-20 00:46:22,217 - Compare Data and Generate Report - INFO - Total entries not found: 66
+2024-06-20 00:46:22,710 - Compare Data and Generate Report - INFO - Successfully Closed The Browser
+2024-06-20 00:46:23,376 - Compare Data and Generate Report - INFO - Sucessfully Closed Amazon All
+2024-06-20 00:46:23,385 - Compare Data and Generate Report - INFO - Comparison test completed.
+2024-06-20 00:47:34,363 - Get The Scraped Data Of Searched Book - INFO - Browser Opened Successfully
+2024-06-20 00:47:36,927 - Get The Scraped Data Of Searched Book - INFO - Successfully Navigated to Amazon url 
+2024-06-20 00:47:49,119 - Get The Scraped Data Of Screenshot - INFO - Sucessfully Opend amazon Apllication
+2024-06-20 00:47:49,808 - Compare Data and Generate Report - INFO - The Amazon Logo Is Having aria-label Attribut and Text Is Amazon.in
+2024-06-20 00:47:50,206 - Compare Data and Generate Report - INFO - Successfully Clicked On the Search Text field
+2024-06-20 00:47:50,509 - Compare Data and Generate Report - INFO - Successfully Entred Hindi Books into Search Text field
+2024-06-20 00:47:53,699 - Compare Data and Generate Report - INFO - Successfully Clicked On the Search Icon
+2024-06-20 00:47:53,795 - Compare Data and Generate Report - INFO - Successfully Waited till Product List Page Loads
+2024-06-20 00:47:54,002 - Compare Data and Generate Report - INFO - Successfully Fetched 22 Number of Product in Product List Page
+2024-06-20 00:47:54,072 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 1 Name
+2024-06-20 00:47:54,280 - Compare Data and Generate Report - INFO - The Book 1 Name is Ajey Hum : Insano ne Kaise Jeeti Duniya - Vol 1 (Hindi of Unstoppable Us)
+2024-06-20 00:47:54,405 - Compare Data and Generate Report - INFO - The Book 1 Price is 499
+2024-06-20 00:47:54,479 - Compare Data and Generate Report - INFO - The Book 1 Review Rating is 3.7 out of 5 stars
+2024-06-20 00:47:54,479 - Compare Data and Generate Report - INFO - Successfully Stored Book 1 Deatils in The Key Value pair 
+2024-06-20 00:47:54,537 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 2 Name
+2024-06-20 00:47:54,638 - Compare Data and Generate Report - INFO - The Book 2 Name is Karamati Mann Hindi ( Translation oF The Magic Mindset ) Preeti Shenoy
+2024-06-20 00:47:54,707 - Compare Data and Generate Report - INFO - The Book 2 Price is 249
+2024-06-20 00:47:54,763 - Compare Data and Generate Report - INFO - The Book 2 Review Rating is 5.0 out of 5 stars
+2024-06-20 00:47:54,763 - Compare Data and Generate Report - INFO - Successfully Stored Book 2 Deatils in The Key Value pair 
+2024-06-20 00:47:54,951 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 3 Name
+2024-06-20 00:47:55,039 - Compare Data and Generate Report - INFO - The Book 3 Name is Best of Hindi Short Stories (Set of 4 books) - Premchand, Jaishankar Prasad, Sarat Chandra, Rabindranath Tagore
+2024-06-20 00:47:55,139 - Compare Data and Generate Report - INFO - The Book 3 Price is 404
+2024-06-20 00:47:55,270 - Compare Data and Generate Report - INFO - The Book 3 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:55,271 - Compare Data and Generate Report - INFO - Successfully Stored Book 3 Deatils in The Key Value pair 
+2024-06-20 00:47:55,327 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 4 Name
+2024-06-20 00:47:55,408 - Compare Data and Generate Report - INFO - The Book 4 Name is Premchand ki Anmol Kahaniya (Hindi)
+2024-06-20 00:47:55,467 - Compare Data and Generate Report - INFO - The Book 4 Price is 179
+2024-06-20 00:47:55,509 - Compare Data and Generate Report - INFO - The Book 4 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:47:55,509 - Compare Data and Generate Report - INFO - Successfully Stored Book 4 Deatils in The Key Value pair 
+2024-06-20 00:47:55,580 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 5 Name
+2024-06-20 00:47:55,666 - Compare Data and Generate Report - INFO - The Book 5 Name is Dark Psychology Secrets & Manipulation (Hindi Edition)
+2024-06-20 00:47:55,729 - Compare Data and Generate Report - INFO - The Book 5 Price is 128
+2024-06-20 00:47:55,785 - Compare Data and Generate Report - INFO - The Book 5 Review Rating is 3.9 out of 5 stars
+2024-06-20 00:47:55,785 - Compare Data and Generate Report - INFO - Successfully Stored Book 5 Deatils in The Key Value pair 
+2024-06-20 00:47:55,826 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 6 Name
+2024-06-20 00:47:55,894 - Compare Data and Generate Report - INFO - The Book 6 Name is JEEVAN KE ADHBHUT RAHASYA (HINDI)
+2024-06-20 00:47:55,941 - Compare Data and Generate Report - INFO - The Book 6 Price is 149
+2024-06-20 00:47:55,984 - Compare Data and Generate Report - INFO - The Book 6 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:55,984 - Compare Data and Generate Report - INFO - Successfully Stored Book 6 Deatils in The Key Value pair 
+2024-06-20 00:47:56,031 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 7 Name
+2024-06-20 00:47:56,080 - Compare Data and Generate Report - INFO - The Book 7 Name is Time Management (Hindi)
+2024-06-20 00:47:56,132 - Compare Data and Generate Report - INFO - The Book 7 Price is 108
+2024-06-20 00:47:56,175 - Compare Data and Generate Report - INFO - The Book 7 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:56,175 - Compare Data and Generate Report - INFO - Successfully Stored Book 7 Deatils in The Key Value pair 
+2024-06-20 00:47:56,236 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 8 Name
+2024-06-20 00:47:56,315 - Compare Data and Generate Report - INFO - The Book 8 Name is Hindi | Stop Overthinking | ????? ?????????? | ?????? ????? ??? ????? | Nick Trenton
+2024-06-20 00:47:56,377 - Compare Data and Generate Report - INFO - The Book 8 Price is 184
+2024-06-20 00:47:56,451 - Compare Data and Generate Report - INFO - The Book 8 Review Rating is 4.1 out of 5 stars
+2024-06-20 00:47:56,451 - Compare Data and Generate Report - INFO - Successfully Stored Book 8 Deatils in The Key Value pair 
+2024-06-20 00:47:56,523 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 9 Name
+2024-06-20 00:47:56,575 - Compare Data and Generate Report - INFO - The Book 9 Name is Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi)
+2024-06-20 00:47:56,633 - Compare Data and Generate Report - INFO - The Book 9 Price is 149
+2024-06-20 00:47:56,675 - Compare Data and Generate Report - INFO - The Book 9 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:56,675 - Compare Data and Generate Report - INFO - Successfully Stored Book 9 Deatils in The Key Value pair 
+2024-06-20 00:47:56,797 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 10 Name
+2024-06-20 00:47:56,900 - Compare Data and Generate Report - INFO - The Book 10 Name is Swami Vivekanand (Set of 4 Books) (Hindi) - Karmyog, Rajyog, Gyanyog, Bhaktiyog
+2024-06-20 00:47:56,975 - Compare Data and Generate Report - INFO - The Book 10 Price is 425
+2024-06-20 00:47:57,017 - Compare Data and Generate Report - INFO - The Book 10 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:47:57,017 - Compare Data and Generate Report - INFO - Successfully Stored Book 10 Deatils in The Key Value pair 
+2024-06-20 00:47:57,067 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 11 Name
+2024-06-20 00:47:57,156 - Compare Data and Generate Report - INFO - The Book 11 Name is Think and Grow Rich: THE 21st CENTURY EDITION
+2024-06-20 00:47:57,203 - Compare Data and Generate Report - INFO - The Book 11 Price is 139
+2024-06-20 00:47:57,250 - Compare Data and Generate Report - INFO - The Book 11 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:57,251 - Compare Data and Generate Report - INFO - Successfully Stored Book 11 Deatils in The Key Value pair 
+2024-06-20 00:47:57,328 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 12 Name
+2024-06-20 00:47:57,394 - Compare Data and Generate Report - INFO - The Book 12 Name is Unfollow
+2024-06-20 00:47:57,451 - Compare Data and Generate Report - INFO - The Book 12 Price is 1,424
+2024-06-20 00:47:57,506 - Compare Data and Generate Report - INFO - The Book 12 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:57,507 - Compare Data and Generate Report - INFO - Successfully Stored Book 12 Deatils in The Key Value pair 
+2024-06-20 00:47:57,579 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 13 Name
+2024-06-20 00:47:57,644 - Compare Data and Generate Report - INFO - The Book 13 Name is 108 Stories from the Vedas, the Puranas and the Upanishads for Children (Illustrated) (Hindi) - Story Book for Kids - Bedtime Stories - 4 Years to 10 Years Old - Hindi Stories for Children - Read Aloud to Infants, Toddlers
+2024-06-20 00:47:57,700 - Compare Data and Generate Report - INFO - The Book 13 Price is 133
+2024-06-20 00:47:57,772 - Compare Data and Generate Report - INFO - The Book 13 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:57,774 - Compare Data and Generate Report - INFO - Successfully Stored Book 13 Deatils in The Key Value pair 
+2024-06-20 00:47:57,850 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 14 Name
+2024-06-20 00:47:57,920 - Compare Data and Generate Report - INFO - The Book 14 Name is Anandamath (Hindi)
+2024-06-20 00:47:57,975 - Compare Data and Generate Report - INFO - The Book 14 Price is 119
+2024-06-20 00:47:58,022 - Compare Data and Generate Report - INFO - The Book 14 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:58,022 - Compare Data and Generate Report - INFO - Successfully Stored Book 14 Deatils in The Key Value pair 
+2024-06-20 00:47:58,079 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 15 Name
+2024-06-20 00:47:58,129 - Compare Data and Generate Report - INFO - The Book 15 Name is Premchand Ki Shreshth Kahaniyan (Hindi)
+2024-06-20 00:47:58,175 - Compare Data and Generate Report - INFO - The Book 15 Price is 159
+2024-06-20 00:47:58,216 - Compare Data and Generate Report - INFO - The Book 15 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:47:58,217 - Compare Data and Generate Report - INFO - Successfully Stored Book 15 Deatils in The Key Value pair 
+2024-06-20 00:47:58,272 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 16 Name
+2024-06-20 00:47:58,319 - Compare Data and Generate Report - INFO - The Book 16 Name is Rashmirathi (Jnanpith Award Winner, 1972) - Hindi
+2024-06-20 00:47:58,367 - Compare Data and Generate Report - INFO - The Book 16 Price is 195
+2024-06-20 00:47:58,423 - Compare Data and Generate Report - INFO - The Book 16 Review Rating is 4.7 out of 5 stars
+2024-06-20 00:47:58,423 - Compare Data and Generate Report - INFO - Successfully Stored Book 16 Deatils in The Key Value pair 
+2024-06-20 00:47:58,524 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 17 Name
+2024-06-20 00:47:58,586 - Compare Data and Generate Report - INFO - The Book 17 Name is Ikigai (Hindi)
+2024-06-20 00:47:58,708 - Compare Data and Generate Report - INFO - The Book 17 Price is 284
+2024-06-20 00:47:58,948 - Compare Data and Generate Report - INFO - The Book 17 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:58,948 - Compare Data and Generate Report - INFO - Successfully Stored Book 17 Deatils in The Key Value pair 
+2024-06-20 00:47:59,241 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 18 Name
+2024-06-20 00:47:59,352 - Compare Data and Generate Report - INFO - The Book 18 Name is Wings of Fire: Agni Ki Udaan | ????? ?? ????? | The Inspiring Journey of Dr. APJ Abdul Kalam | An Autobiography | Book in Hindi
+2024-06-20 00:47:59,458 - Compare Data and Generate Report - INFO - The Book 18 Price is 199
+2024-06-20 00:47:59,547 - Compare Data and Generate Report - INFO - The Book 18 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:47:59,547 - Compare Data and Generate Report - INFO - Successfully Stored Book 18 Deatils in The Key Value pair 
+2024-06-20 00:47:59,623 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 19 Name
+2024-06-20 00:47:59,685 - Compare Data and Generate Report - INFO - The Book 19 Name is Sunderkand (Hindi)
+2024-06-20 00:47:59,747 - Compare Data and Generate Report - INFO - The Book 19 Price is 129
+2024-06-20 00:47:59,785 - Compare Data and Generate Report - INFO - The Book 19 Review Rating is 4.7 out of 5 stars
+2024-06-20 00:47:59,786 - Compare Data and Generate Report - INFO - Successfully Stored Book 19 Deatils in The Key Value pair 
+2024-06-20 00:47:59,844 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 20 Name
+2024-06-20 00:47:59,895 - Compare Data and Generate Report - INFO - The Book 20 Name is Godaan (Hindi)
+2024-06-20 00:47:59,943 - Compare Data and Generate Report - INFO - The Book 20 Price is 179
+2024-06-20 00:47:59,993 - Compare Data and Generate Report - INFO - The Book 20 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:59,994 - Compare Data and Generate Report - INFO - Successfully Stored Book 20 Deatils in The Key Value pair 
+2024-06-20 00:48:00,061 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 21 Name
+2024-06-20 00:48:00,110 - Compare Data and Generate Report - INFO - The Book 21 Name is Twins
+2024-06-20 00:48:00,173 - Compare Data and Generate Report - INFO - The Book 21 Price is 1,283
+2024-06-20 00:48:00,217 - Compare Data and Generate Report - INFO - The Book 21 Review Rating is 3.0 out of 5 stars
+2024-06-20 00:48:00,217 - Compare Data and Generate Report - INFO - Successfully Stored Book 21 Deatils in The Key Value pair 
+2024-06-20 00:48:00,268 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 22 Name
+2024-06-20 00:48:00,324 - Compare Data and Generate Report - INFO - The Book 22 Name is Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi)
+2024-06-20 00:48:00,401 - Compare Data and Generate Report - INFO - The Book 22 Price is 149
+2024-06-20 00:48:00,451 - Compare Data and Generate Report - INFO - The Book 22 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:48:00,451 - Compare Data and Generate Report - INFO - Successfully Stored Book 22 Deatils in The Key Value pair 
+2024-06-20 00:48:00,895 - Compare Data and Generate Report - INFO - Successfully Written The scraped Data of Book in The Execl
+2024-06-20 00:48:00,896 - Compare Data and Generate Report - INFO - Storing The Data in Json File
+2024-06-20 00:48:05,347 - Compare Data and Generate Report - INFO - Successfully Written The scraped Data of Book in The Json File
+2024-06-20 00:48:07,416 - Compare Data and Generate Report - INFO - Successfully Verifyed The Choose Your Language is pesent
+2024-06-20 00:48:08,405 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Select English Option
+2024-06-20 00:48:09,753 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Continue Button
+2024-06-20 00:48:10,821 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Skip Sign In Option
+2024-06-20 00:48:12,269 - Compare Data and Generate Report - INFO - Sucessfully verifyed Element Is Having Search Amazon.in Text
+2024-06-20 00:48:13,440 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Search TextField
+2024-06-20 00:48:15,590 - Compare Data and Generate Report - INFO - Sucessfully Entered Hindi Books into Search Textfield
+2024-06-20 00:48:16,753 - Compare Data and Generate Report - INFO - Sucessfully Pressed enter key in android keyboard
+2024-06-20 00:48:19,350 - Compare Data and Generate Report - INFO - Sucessfully swiped 3 Times
+2024-06-20 00:48:20,602 - Compare Data and Generate Report - INFO - Sucessfully Captchered Screenshot
+2024-06-20 00:48:26,601 - Compare Data and Generate Report - INFO - Sucessfully Fatched Data From Image
+2024-06-20 00:48:26,758 - Compare Data and Generate Report - INFO - Sucessfully Stored Data Into Excel
+2024-06-20 00:48:26,992 - Compare Data and Generate Report - INFO - Comparison report saved to file: comparison_report.txt
+2024-06-20 00:48:26,992 - Compare Data and Generate Report - INFO - Comparison summary:
+2024-06-20 00:48:26,992 - Compare Data and Generate Report - INFO - Total entries found: 0
+2024-06-20 00:48:26,993 - Compare Data and Generate Report - INFO - Total entries not found: 66
+2024-06-20 00:48:27,379 - Compare Data and Generate Report - INFO - Successfully Closed The Browser
+2024-06-20 00:48:28,224 - Compare Data and Generate Report - INFO - Sucessfully Closed Amazon All
+2024-06-20 00:48:28,226 - Compare Data and Generate Report - INFO - Comparison test completed.
+2024-06-20 00:54:42,621 - Get The Scraped Data Of Searched Book - INFO - Browser Opened Successfully

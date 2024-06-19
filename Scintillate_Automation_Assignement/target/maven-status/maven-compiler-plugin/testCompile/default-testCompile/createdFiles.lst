@@ -1,0 +1,4 @@
+com\TestScripts\TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium.class
+com\TestScripts\TS003_CompareDataAndGenerateReport.class
+com\ITestListener\listeneres.class
+com\TestScripts\TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation.class

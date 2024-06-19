@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T00:47:29 IST" name="Regression" finished-at="2024-06-20T00:48:28 IST" duration-ms="58359">
+    <groups>
+    </groups>
+    <test started-at="2024-06-20T00:47:29 IST" name="Compare Selenium Data with Appium OCR Data" finished-at="2024-06-20T00:48:28 IST" duration-ms="58359">
+      <class name="com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium">
+        <test-method is-config="true" signature="OpenTheAmazonApplication()[pri:0, instance:com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium@302c971f]" started-at="2024-06-20T00:47:37 IST" name="OpenTheAmazonApplication" finished-at="2024-06-20T00:47:49 IST" duration-ms="11994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTheAmazonApplication -->
+        <test-method signature="GetTheScreenShotOfTheProductListPage()[pri:0, instance:com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium@302c971f]" started-at="2024-06-20T00:48:05 IST" name="GetTheScreenShotOfTheProductListPage" finished-at="2024-06-20T00:48:26 IST" duration-ms="21402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTheScreenShotOfTheProductListPage -->
+        <test-method is-config="true" signature="CloseTheApplication()[pri:0, instance:com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium@302c971f]" started-at="2024-06-20T00:48:27 IST" name="CloseTheApplication" finished-at="2024-06-20T00:48:28 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheApplication -->
+      </class> <!-- com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium -->
+      <class name="com.TestScripts.TS003_CompareDataAndGenerateReport">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestScripts.TS003_CompareDataAndGenerateReport@1972e513]" started-at="2024-06-20T00:47:49 IST" name="setup" finished-at="2024-06-20T00:47:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="compareData()[pri:0, instance:com.TestScripts.TS003_CompareDataAndGenerateReport@1972e513]" started-at="2024-06-20T00:48:26 IST" name="compareData" finished-at="2024-06-20T00:48:26 IST" depends-on-methods="com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium.GetTheScreenShotOfTheProductListPage, com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation.get_All_The_BooksName_Price_Review_In_Product_List_Page" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.TestScripts.TS003_CompareDataAndGenerateReport@1972e513]" started-at="2024-06-20T00:48:28 IST" name="teardown" finished-at="2024-06-20T00:48:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestScripts.TS003_CompareDataAndGenerateReport -->
+      <class name="com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation">
+        <test-method is-config="true" signature="open_Browser_And_Navigate_To_Amazon_Website()[pri:0, instance:com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation@359df09a]" started-at="2024-06-20T00:47:29 IST" name="open_Browser_And_Navigate_To_Amazon_Website" finished-at="2024-06-20T00:47:37 IST" duration-ms="7249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser_And_Navigate_To_Amazon_Website -->
+        <test-method signature="get_All_The_BooksName_Price_Review_In_Product_List_Page()[pri:0, instance:com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation@359df09a]" started-at="2024-06-20T00:47:49 IST" name="get_All_The_BooksName_Price_Review_In_Product_List_Page" finished-at="2024-06-20T00:48:05 IST" duration-ms="16103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_All_The_BooksName_Price_Review_In_Product_List_Page -->
+        <test-method is-config="true" signature="TearDownTheDriver()[pri:0, instance:com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation@359df09a]" started-at="2024-06-20T00:48:26 IST" name="TearDownTheDriver" finished-at="2024-06-20T00:48:27 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTheDriver -->
+      </class> <!-- com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation -->
+    </test> <!-- Compare Selenium Data with Appium OCR Data -->
+  </suite> <!-- Regression -->
+</testng-results>

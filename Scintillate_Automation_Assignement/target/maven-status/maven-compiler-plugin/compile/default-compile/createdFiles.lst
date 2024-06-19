@@ -1,0 +1,5 @@
+com\Utils\TestBase.class
+com\PageObject\AmazonHomePage.class
+com\Utils\extentReporterNG.class
+com\PageObject\AmazonHomeScreen.class
+com\PageObject\AmazonProductListPage.class

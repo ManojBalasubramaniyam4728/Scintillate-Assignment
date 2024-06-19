@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+	<listeners>
+		<listener class-name="com.ITestListener.listeneres">
+		<listener class-name="com.Utils.extentReporterNG" />
+		</listener>
+	</listeners>
+	<test name="Compare Selenium Data with Appium OCR Data">
+		<classes>
+			<class name="com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation"/>
+            <class name="com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium"/>
+			<class name="com.TestScripts.TS003_CompareDataAndGenerateReport" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="60.596" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\eclipse-workspace\Scintillate_Automation_Assignement\target\test-classes;C:\Users\user\eclipse-workspace\Scintillate_Automation_Assignement\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\user\.m2\repository\io\appium\java-client\9.1.0\java-client-9.1.0.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\user\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\user\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\user\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\user\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\user\.m2\repository\net\sourceforge\tess4j\tess4j\4.5.4\tess4j-4.5.4.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.6.0\jna-5.6.0.jar;C:\Users\user\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\user\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\Users\user\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\user\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\Users\user\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.21\pdfbox-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.21\fontbox-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.21\pdfbox-tools-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.21\pdfbox-debugger-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.3\jbig2-imageio-3.0.3.jar;C:\Users\user\.m2\repository\net\sourceforge\lept4j\lept4j\1.13.2\lept4j-1.13.2.jar;C:\Users\user\.m2\repository\org\jboss\jboss-vfs\3.2.15.Final\jboss-vfs-3.2.15.Final.jar;C:\Users\user\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\Users\user\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\user\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="jna.library.path" value="C:\Users\user\AppData\Local\Temp\tess4j\win32-x86-64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\user\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire2675916649870782295\surefirebooter-20240620004726587_3.jar C:\Users\user\AppData\Local\Temp\surefire2675916649870782295 2024-06-20T00-47-26_149-jvmRun1 surefire-20240620004726587_1tmp surefire_0-20240620004726587_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\eclipse-workspace\Scintillate_Automation_Assignement\target\test-classes;C:\Users\user\eclipse-workspace\Scintillate_Automation_Assignement\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\user\.m2\repository\io\appium\java-client\9.1.0\java-client-9.1.0.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\user\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\user\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\user\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\user\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\user\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\user\.m2\repository\net\sourceforge\tess4j\tess4j\4.5.4\tess4j-4.5.4.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.6.0\jna-5.6.0.jar;C:\Users\user\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\user\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\Users\user\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\user\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\Users\user\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.21\pdfbox-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.21\fontbox-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.21\pdfbox-tools-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.21\pdfbox-debugger-2.0.21.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.3\jbig2-imageio-3.0.3.jar;C:\Users\user\.m2\repository\net\sourceforge\lept4j\lept4j\1.13.2\lept4j-1.13.2.jar;C:\Users\user\.m2\repository\org\jboss\jboss-vfs\3.2.15.Final\jboss-vfs-3.2.15.Final.jar;C:\Users\user\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\Users\user\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\user\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\user\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\user\eclipse-workspace\Scintillate_Automation_Assignement"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire2675916649870782295\surefirebooter-20240620004726587_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="Manoj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="jnidispatch.path" value="C:\Users\user\AppData\Local\Temp\jna-74110101\jna11426316639478884525.dll"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="jna.loaded" value="true"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\user\eclipse-workspace\Scintillate_Automation_Assignement"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\user\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\user\AppData\Local\Android\Sdk\platform-tools;C:\Users\user\AppData\Local\Android\Sdk\tools\bin;C:\Users\user\AppData\Local\Android\Sdk\tools\lib\x86_64;C:\Users\user\AppData\Local\Android\Sdk;C:\FireFlinkClient\resources\flinko-client\utilities\jdk-11\bin;C:\Program Files\PuTTY\;C:\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\user\Documents\selenium\gradle-5.4.1-bin\gradle-5.4.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs;C:\Users\user\AppData\Local\Android\Sdk\tools;C:\Users\user\AppData\Local\Android\Sdk\platform-tools;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\GitHubDesktop\bin;C:\ProgramData\Manoj\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.2.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin;;C:\Users\user\Documents\selenium\gradle-5.4.1-bin\gradle-5.4.1\bin;;C:\Users\user\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="jna.encoding" value="UTF8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="get_All_The_BooksName_Price_Review_In_Product_List_Page" classname="com.TestScripts.TS001_GetTheSearchedHindiBookNamePriceRatingInSeleniumWedAutomation" time="16.098">
+    <system-out><![CDATA[2024-06-20 00:47:34,363 - Get The Scraped Data Of Searched Book - INFO - Browser Opened Successfully
+2024-06-20 00:47:36,927 - Get The Scraped Data Of Searched Book - INFO - Successfully Navigated to Amazon url 
+2024-06-20 00:47:49,119 - Get The Scraped Data Of Screenshot - INFO - Sucessfully Opend amazon Apllication
+2024-06-20 00:47:49,808 - Compare Data and Generate Report - INFO - The Amazon Logo Is Having aria-label Attribut and Text Is Amazon.in
+2024-06-20 00:47:50,206 - Compare Data and Generate Report - INFO - Successfully Clicked On the Search Text field
+2024-06-20 00:47:50,509 - Compare Data and Generate Report - INFO - Successfully Entred Hindi Books into Search Text field
+2024-06-20 00:47:53,699 - Compare Data and Generate Report - INFO - Successfully Clicked On the Search Icon
+2024-06-20 00:47:53,795 - Compare Data and Generate Report - INFO - Successfully Waited till Product List Page Loads
+2024-06-20 00:47:54,002 - Compare Data and Generate Report - INFO - Successfully Fetched 22 Number of Product in Product List Page
+2024-06-20 00:47:54,072 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 1 Name
+2024-06-20 00:47:54,280 - Compare Data and Generate Report - INFO - The Book 1 Name is Ajey Hum : Insano ne Kaise Jeeti Duniya - Vol 1 (Hindi of Unstoppable Us)
+2024-06-20 00:47:54,405 - Compare Data and Generate Report - INFO - The Book 1 Price is 499
+2024-06-20 00:47:54,479 - Compare Data and Generate Report - INFO - The Book 1 Review Rating is 3.7 out of 5 stars
+2024-06-20 00:47:54,479 - Compare Data and Generate Report - INFO - Successfully Stored Book 1 Deatils in The Key Value pair 
+2024-06-20 00:47:54,537 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 2 Name
+2024-06-20 00:47:54,638 - Compare Data and Generate Report - INFO - The Book 2 Name is Karamati Mann Hindi ( Translation oF The Magic Mindset ) Preeti Shenoy
+2024-06-20 00:47:54,707 - Compare Data and Generate Report - INFO - The Book 2 Price is 249
+2024-06-20 00:47:54,763 - Compare Data and Generate Report - INFO - The Book 2 Review Rating is 5.0 out of 5 stars
+2024-06-20 00:47:54,763 - Compare Data and Generate Report - INFO - Successfully Stored Book 2 Deatils in The Key Value pair 
+2024-06-20 00:47:54,951 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 3 Name
+2024-06-20 00:47:55,039 - Compare Data and Generate Report - INFO - The Book 3 Name is Best of Hindi Short Stories (Set of 4 books) - Premchand, Jaishankar Prasad, Sarat Chandra, Rabindranath Tagore
+2024-06-20 00:47:55,139 - Compare Data and Generate Report - INFO - The Book 3 Price is 404
+2024-06-20 00:47:55,270 - Compare Data and Generate Report - INFO - The Book 3 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:55,271 - Compare Data and Generate Report - INFO - Successfully Stored Book 3 Deatils in The Key Value pair 
+2024-06-20 00:47:55,327 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 4 Name
+2024-06-20 00:47:55,408 - Compare Data and Generate Report - INFO - The Book 4 Name is Premchand ki Anmol Kahaniya (Hindi)
+2024-06-20 00:47:55,467 - Compare Data and Generate Report - INFO - The Book 4 Price is 179
+2024-06-20 00:47:55,509 - Compare Data and Generate Report - INFO - The Book 4 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:47:55,509 - Compare Data and Generate Report - INFO - Successfully Stored Book 4 Deatils in The Key Value pair 
+2024-06-20 00:47:55,580 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 5 Name
+2024-06-20 00:47:55,666 - Compare Data and Generate Report - INFO - The Book 5 Name is Dark Psychology Secrets & Manipulation (Hindi Edition)
+2024-06-20 00:47:55,729 - Compare Data and Generate Report - INFO - The Book 5 Price is 128
+2024-06-20 00:47:55,785 - Compare Data and Generate Report - INFO - The Book 5 Review Rating is 3.9 out of 5 stars
+2024-06-20 00:47:55,785 - Compare Data and Generate Report - INFO - Successfully Stored Book 5 Deatils in The Key Value pair 
+2024-06-20 00:47:55,826 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 6 Name
+2024-06-20 00:47:55,894 - Compare Data and Generate Report - INFO - The Book 6 Name is JEEVAN KE ADHBHUT RAHASYA (HINDI)
+2024-06-20 00:47:55,941 - Compare Data and Generate Report - INFO - The Book 6 Price is 149
+2024-06-20 00:47:55,984 - Compare Data and Generate Report - INFO - The Book 6 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:55,984 - Compare Data and Generate Report - INFO - Successfully Stored Book 6 Deatils in The Key Value pair 
+2024-06-20 00:47:56,031 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 7 Name
+2024-06-20 00:47:56,080 - Compare Data and Generate Report - INFO - The Book 7 Name is Time Management (Hindi)
+2024-06-20 00:47:56,132 - Compare Data and Generate Report - INFO - The Book 7 Price is 108
+2024-06-20 00:47:56,175 - Compare Data and Generate Report - INFO - The Book 7 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:56,175 - Compare Data and Generate Report - INFO - Successfully Stored Book 7 Deatils in The Key Value pair 
+2024-06-20 00:47:56,236 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 8 Name
+2024-06-20 00:47:56,315 - Compare Data and Generate Report - INFO - The Book 8 Name is Hindi | Stop Overthinking | ????? ?????????? | ?????? ????? ??? ????? | Nick Trenton
+2024-06-20 00:47:56,377 - Compare Data and Generate Report - INFO - The Book 8 Price is 184
+2024-06-20 00:47:56,451 - Compare Data and Generate Report - INFO - The Book 8 Review Rating is 4.1 out of 5 stars
+2024-06-20 00:47:56,451 - Compare Data and Generate Report - INFO - Successfully Stored Book 8 Deatils in The Key Value pair 
+2024-06-20 00:47:56,523 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 9 Name
+2024-06-20 00:47:56,575 - Compare Data and Generate Report - INFO - The Book 9 Name is Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi)
+2024-06-20 00:47:56,633 - Compare Data and Generate Report - INFO - The Book 9 Price is 149
+2024-06-20 00:47:56,675 - Compare Data and Generate Report - INFO - The Book 9 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:56,675 - Compare Data and Generate Report - INFO - Successfully Stored Book 9 Deatils in The Key Value pair 
+2024-06-20 00:47:56,797 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 10 Name
+2024-06-20 00:47:56,900 - Compare Data and Generate Report - INFO - The Book 10 Name is Swami Vivekanand (Set of 4 Books) (Hindi) - Karmyog, Rajyog, Gyanyog, Bhaktiyog
+2024-06-20 00:47:56,975 - Compare Data and Generate Report - INFO - The Book 10 Price is 425
+2024-06-20 00:47:57,017 - Compare Data and Generate Report - INFO - The Book 10 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:47:57,017 - Compare Data and Generate Report - INFO - Successfully Stored Book 10 Deatils in The Key Value pair 
+2024-06-20 00:47:57,067 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 11 Name
+2024-06-20 00:47:57,156 - Compare Data and Generate Report - INFO - The Book 11 Name is Think and Grow Rich: THE 21st CENTURY EDITION
+2024-06-20 00:47:57,203 - Compare Data and Generate Report - INFO - The Book 11 Price is 139
+2024-06-20 00:47:57,250 - Compare Data and Generate Report - INFO - The Book 11 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:57,251 - Compare Data and Generate Report - INFO - Successfully Stored Book 11 Deatils in The Key Value pair 
+2024-06-20 00:47:57,328 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 12 Name
+2024-06-20 00:47:57,394 - Compare Data and Generate Report - INFO - The Book 12 Name is Unfollow
+2024-06-20 00:47:57,451 - Compare Data and Generate Report - INFO - The Book 12 Price is 1,424
+2024-06-20 00:47:57,506 - Compare Data and Generate Report - INFO - The Book 12 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:57,507 - Compare Data and Generate Report - INFO - Successfully Stored Book 12 Deatils in The Key Value pair 
+2024-06-20 00:47:57,579 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 13 Name
+2024-06-20 00:47:57,644 - Compare Data and Generate Report - INFO - The Book 13 Name is 108 Stories from the Vedas, the Puranas and the Upanishads for Children (Illustrated) (Hindi) - Story Book for Kids - Bedtime Stories - 4 Years to 10 Years Old - Hindi Stories for Children - Read Aloud to Infants, Toddlers
+2024-06-20 00:47:57,700 - Compare Data and Generate Report - INFO - The Book 13 Price is 133
+2024-06-20 00:47:57,772 - Compare Data and Generate Report - INFO - The Book 13 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:47:57,774 - Compare Data and Generate Report - INFO - Successfully Stored Book 13 Deatils in The Key Value pair 
+2024-06-20 00:47:57,850 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 14 Name
+2024-06-20 00:47:57,920 - Compare Data and Generate Report - INFO - The Book 14 Name is Anandamath (Hindi)
+2024-06-20 00:47:57,975 - Compare Data and Generate Report - INFO - The Book 14 Price is 119
+2024-06-20 00:47:58,022 - Compare Data and Generate Report - INFO - The Book 14 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:58,022 - Compare Data and Generate Report - INFO - Successfully Stored Book 14 Deatils in The Key Value pair 
+2024-06-20 00:47:58,079 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 15 Name
+2024-06-20 00:47:58,129 - Compare Data and Generate Report - INFO - The Book 15 Name is Premchand Ki Shreshth Kahaniyan (Hindi)
+2024-06-20 00:47:58,175 - Compare Data and Generate Report - INFO - The Book 15 Price is 159
+2024-06-20 00:47:58,216 - Compare Data and Generate Report - INFO - The Book 15 Review Rating is 4.3 out of 5 stars
+2024-06-20 00:47:58,217 - Compare Data and Generate Report - INFO - Successfully Stored Book 15 Deatils in The Key Value pair 
+2024-06-20 00:47:58,272 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 16 Name
+2024-06-20 00:47:58,319 - Compare Data and Generate Report - INFO - The Book 16 Name is Rashmirathi (Jnanpith Award Winner, 1972) - Hindi
+2024-06-20 00:47:58,367 - Compare Data and Generate Report - INFO - The Book 16 Price is 195
+2024-06-20 00:47:58,423 - Compare Data and Generate Report - INFO - The Book 16 Review Rating is 4.7 out of 5 stars
+2024-06-20 00:47:58,423 - Compare Data and Generate Report - INFO - Successfully Stored Book 16 Deatils in The Key Value pair 
+2024-06-20 00:47:58,524 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 17 Name
+2024-06-20 00:47:58,586 - Compare Data and Generate Report - INFO - The Book 17 Name is Ikigai (Hindi)
+2024-06-20 00:47:58,708 - Compare Data and Generate Report - INFO - The Book 17 Price is 284
+2024-06-20 00:47:58,948 - Compare Data and Generate Report - INFO - The Book 17 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:58,948 - Compare Data and Generate Report - INFO - Successfully Stored Book 17 Deatils in The Key Value pair 
+2024-06-20 00:47:59,241 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 18 Name
+2024-06-20 00:47:59,352 - Compare Data and Generate Report - INFO - The Book 18 Name is Wings of Fire: Agni Ki Udaan | ????? ?? ????? | The Inspiring Journey of Dr. APJ Abdul Kalam | An Autobiography | Book in Hindi
+2024-06-20 00:47:59,458 - Compare Data and Generate Report - INFO - The Book 18 Price is 199
+2024-06-20 00:47:59,547 - Compare Data and Generate Report - INFO - The Book 18 Review Rating is 4.6 out of 5 stars
+2024-06-20 00:47:59,547 - Compare Data and Generate Report - INFO - Successfully Stored Book 18 Deatils in The Key Value pair 
+2024-06-20 00:47:59,623 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 19 Name
+2024-06-20 00:47:59,685 - Compare Data and Generate Report - INFO - The Book 19 Name is Sunderkand (Hindi)
+2024-06-20 00:47:59,747 - Compare Data and Generate Report - INFO - The Book 19 Price is 129
+2024-06-20 00:47:59,785 - Compare Data and Generate Report - INFO - The Book 19 Review Rating is 4.7 out of 5 stars
+2024-06-20 00:47:59,786 - Compare Data and Generate Report - INFO - Successfully Stored Book 19 Deatils in The Key Value pair 
+2024-06-20 00:47:59,844 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 20 Name
+2024-06-20 00:47:59,895 - Compare Data and Generate Report - INFO - The Book 20 Name is Godaan (Hindi)
+2024-06-20 00:47:59,943 - Compare Data and Generate Report - INFO - The Book 20 Price is 179
+2024-06-20 00:47:59,993 - Compare Data and Generate Report - INFO - The Book 20 Review Rating is 4.5 out of 5 stars
+2024-06-20 00:47:59,994 - Compare Data and Generate Report - INFO - Successfully Stored Book 20 Deatils in The Key Value pair 
+2024-06-20 00:48:00,061 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 21 Name
+2024-06-20 00:48:00,110 - Compare Data and Generate Report - INFO - The Book 21 Name is Twins
+2024-06-20 00:48:00,173 - Compare Data and Generate Report - INFO - The Book 21 Price is 1,283
+2024-06-20 00:48:00,217 - Compare Data and Generate Report - INFO - The Book 21 Review Rating is 3.0 out of 5 stars
+2024-06-20 00:48:00,217 - Compare Data and Generate Report - INFO - Successfully Stored Book 21 Deatils in The Key Value pair 
+2024-06-20 00:48:00,268 - Compare Data and Generate Report - INFO - Successfully scroll Till Book 22 Name
+2024-06-20 00:48:00,324 - Compare Data and Generate Report - INFO - The Book 22 Name is Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi)
+2024-06-20 00:48:00,401 - Compare Data and Generate Report - INFO - The Book 22 Price is 149
+2024-06-20 00:48:00,451 - Compare Data and Generate Report - INFO - The Book 22 Review Rating is 4.4 out of 5 stars
+2024-06-20 00:48:00,451 - Compare Data and Generate Report - INFO - Successfully Stored Book 22 Deatils in The Key Value pair 
+2024-06-20 00:48:00,895 - Compare Data and Generate Report - INFO - Successfully Written The scraped Data of Book in The Execl
+2024-06-20 00:48:00,896 - Compare Data and Generate Report - INFO - Storing The Data in Json File
+2024-06-20 00:48:05,347 - Compare Data and Generate Report - INFO - Successfully Written The scraped Data of Book in The Json File
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+log4j:WARN No such property [locationINFO] in org.apache.log4j.HTMLLayout.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Jun 20, 2024 12:47:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 126
+Jun 20, 2024 12:47:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.62. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+log4j:WARN No such property [locationINFO] in org.apache.log4j.HTMLLayout.
+log4j:WARN No such property [locationINFO] in org.apache.log4j.HTMLLayout.
+]]></system-err>
+  </testcase>
+  <testcase name="GetTheScreenShotOfTheProductListPage" classname="com.TestScripts.TS002_GetTheDataOfProductListPageFromScreenshotUsingAppium" time="21.404">
+    <system-out><![CDATA[2024-06-20 00:48:07,416 - Compare Data and Generate Report - INFO - Successfully Verifyed The Choose Your Language is pesent
+2024-06-20 00:48:08,405 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Select English Option
+2024-06-20 00:48:09,753 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Continue Button
+2024-06-20 00:48:10,821 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Skip Sign In Option
+2024-06-20 00:48:12,269 - Compare Data and Generate Report - INFO - Sucessfully verifyed Element Is Having Search Amazon.in Text
+2024-06-20 00:48:13,440 - Compare Data and Generate Report - INFO - Sucessfully Tapped on Search TextField
+2024-06-20 00:48:15,590 - Compare Data and Generate Report - INFO - Sucessfully Entered Hindi Books into Search Textfield
+2024-06-20 00:48:16,753 - Compare Data and Generate Report - INFO - Sucessfully Pressed enter key in android keyboard
+2024-06-20 00:48:19,350 - Compare Data and Generate Report - INFO - Sucessfully swiped 3 Times
+2024-06-20 00:48:20,602 - Compare Data and Generate Report - INFO - Sucessfully Captchered Screenshot
+2024-06-20 00:48:26,601 - Compare Data and Generate Report - INFO - Sucessfully Fatched Data From Image
+2024-06-20 00:48:26,758 - Compare Data and Generate Report - INFO - Sucessfully Stored Data Into Excel
+]]></system-out>
+  </testcase>
+  <testcase name="compareData" classname="com.TestScripts.TS003_CompareDataAndGenerateReport" time="0.236">
+    <system-out><![CDATA[{Book Name1=Ajey Hum : Insano ne Kaise Jeeti Duniya - Vol 1 (Hindi of Unstoppable Us), Book Price1=499, Book Review1=3.7 out of 5 stars, Book Name2=Karamati Mann Hindi ( Translation oF The Magic Mindset ) Preeti Shenoy, Book Price2=249, Book Review2=5.0 out of 5 stars, Book Name3=Best of Hindi Short Stories (Set of 4 books) - Premchand, Jaishankar Prasad, Sarat Chandra, Rabindranath Tagore, Book Price3=404, Book Review3=4.4 out of 5 stars, Book Name4=Premchand ki Anmol Kahaniya (Hindi), Book Price4=179, Book Review4=4.3 out of 5 stars, Book Name5=Dark Psychology Secrets & Manipulation (Hindi Edition), Book Price5=128, Book Review5=3.9 out of 5 stars, Book Name6=JEEVAN KE ADHBHUT RAHASYA (HINDI), Book Price6=149, Book Review6=4.5 out of 5 stars, Book Name7=Time Management (Hindi), Book Price7=108, Book Review7=4.4 out of 5 stars, Book Name8=Hindi | Stop Overthinking | स्टॉप ओवरथिंकिंग | ज़्यादा सोचना बंद कीजिए | Nick Trenton, Book Price8=184, Book Review8=4.1 out of 5 stars, Book Name9=Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi), Book Price9=149, Book Review9=4.4 out of 5 stars, Book Name10=Swami Vivekanand (Set of 4 Books) (Hindi) - Karmyog, Rajyog, Gyanyog, Bhaktiyog, Book Price10=425, Book Review10=4.6 out of 5 stars, Book Name11=Think and Grow Rich: THE 21st CENTURY EDITION, Book Price11=139, Book Review11=4.5 out of 5 stars, Book Name12=Unfollow, Book Price12=1,424, Book Review12=4.5 out of 5 stars, Book Name13=108 Stories from the Vedas, the Puranas and the Upanishads for Children (Illustrated) (Hindi) - Story Book for Kids - Bedtime Stories - 4 Years to 10 Years Old - Hindi Stories for Children - Read Aloud to Infants, Toddlers, Book Price13=133, Book Review13=4.4 out of 5 stars, Book Name14=Anandamath (Hindi), Book Price14=119, Book Review14=4.5 out of 5 stars, Book Name15=Premchand Ki Shreshth Kahaniyan (Hindi), Book Price15=159, Book Review15=4.3 out of 5 stars, Book Name16=Rashmirathi (Jnanpith Award Winner, 1972) - Hindi, Book Price16=195, Book Review16=4.7 out of 5 stars, Book Name17=Ikigai (Hindi), Book Price17=284, Book Review17=4.5 out of 5 stars, Book Name18=Wings of Fire: Agni Ki Udaan | अग्नि की उड़ान | The Inspiring Journey of Dr. APJ Abdul Kalam | An Autobiography | Book in Hindi, Book Price18=199, Book Review18=4.6 out of 5 stars, Book Name19=Sunderkand (Hindi), Book Price19=129, Book Review19=4.7 out of 5 stars, Book Name20=Godaan (Hindi), Book Price20=179, Book Review20=4.5 out of 5 stars, Book Name21=Twins, Book Price21=1,283, Book Review21=3.0 out of 5 stars, Book Name22=Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi), Book Price22=149, Book Review22=4.4 out of 5 stars}
+a
+Q_ Hindi Books (0)
+Best of Hindi Short Stories
+(Set of 4 books) - Premchand,
+At Jaishankar Prasad, Sarat...
+a cee con Hindi Edition | by Various Authors
+A eo et | 1 September 2020
+2h et Kaa 755)
+, —_ 5 9 @©6 Paperback
+TAs Gea 2404 map: 2625 (35% off)
+~ AE si ce
+WN oe vprime
+FREE delivery Sat, 22 Jun on 7499
+of items fulfilled by Amazon
+Or fastest delivery Today
+Premchand ki Anmol
+Kahaniya (Hindi)
+Hindi Edition | by Munshi
+Premchand | 1 March 2022
+We 8 a3 ttt dt (214)
+UCHICE Paperback
+: ae if 2179 map: 2249 (28% off)
+ge othe /
+—— ae Yo
+a __—CEFREE delivery Sat, 22 Jun on 2499
+of items fulfilled by Amazon
+Or fastest delivery Today
+1 Other format: Kindle Edition
+SD
+a & FW =
+= O JJ
+
+Comparison Report:
+Book Name, Selenium Data, OCR Data, Status
+Book Name12, Unfollow, N/A, Not found in OCR Data
+Book Name11, Think and Grow Rich: THE 21st CENTURY EDITION, N/A, Not found in OCR Data
+Book Name10, Swami Vivekanand (Set of 4 Books) (Hindi) - Karmyog, N/A, Not found in OCR Data
+Book Name16, Rashmirathi (Jnanpith Award Winner, N/A, Not found in OCR Data
+Book Name15, Premchand Ki Shreshth Kahaniyan (Hindi), N/A, Not found in OCR Data
+Book Price19, 129, N/A, Not found in OCR Data
+Book Name14, Anandamath (Hindi), N/A, Not found in OCR Data
+Book Price18, 199, N/A, Not found in OCR Data
+Book Name13, 108 Stories from the Vedas, N/A, Not found in OCR Data
+Book Price17, 284, N/A, Not found in OCR Data
+Book Price16, 195, N/A, Not found in OCR Data
+Book Price15, 159, N/A, Not found in OCR Data
+Book Name19, Sunderkand (Hindi), N/A, Not found in OCR Data
+Book Price14, 119, N/A, Not found in OCR Data
+Book Name18, Wings of Fire: Agni Ki Udaan | अग्नि की उड़ान | The Inspiring Journey of Dr. APJ Abdul Kalam | An Autobiography | Book in Hindi, N/A, Not found in OCR Data
+Book Price13, 133, N/A, Not found in OCR Data
+Book Name17, Ikigai (Hindi), N/A, Not found in OCR Data
+Book Price12, 1, N/A, Not found in OCR Data
+Book Price11, 139, N/A, Not found in OCR Data
+Book Price10, 425, N/A, Not found in OCR Data
+Book Name6, JEEVAN KE ADHBHUT RAHASYA (HINDI), N/A, Not found in OCR Data
+Book Name7, Time Management (Hindi), N/A, Not found in OCR Data
+Book Name8, Hindi | Stop Overthinking | स्टॉप ओवरथिंकिंग | ज़्यादा सोचना बंद कीजिए | Nick Trenton, N/A, Not found in OCR Data
+Book Name9, Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi), N/A, Not found in OCR Data
+Book Name2, Karamati Mann Hindi ( Translation oF The Magic Mindset ) Preeti Shenoy, N/A, Not found in OCR Data
+Book Name3, Best of Hindi Short Stories (Set of 4 books) - Premchand, N/A, Not found in OCR Data
+Book Name4, Premchand ki Anmol Kahaniya (Hindi), N/A, Not found in OCR Data
+Book Name5, Dark Psychology Secrets & Manipulation (Hindi Edition), N/A, Not found in OCR Data
+Book Name22, Aapke Avchetan Mann Ki Shakti (The Power Of Your Subconscious Mind In Hindi), N/A, Not found in OCR Data
+Book Name21, Twins, N/A, Not found in OCR Data
+Book Name20, Godaan (Hindi), N/A, Not found in OCR Data
+{Book Name1, Ajey Hum : Insano ne Kaise Jeeti Duniya - Vol 1 (Hindi of Unstoppable Us), N/A, Not found in OCR Data
+Book Price1, 499, N/A, Not found in OCR Data
+Book Review10, 4.6 out of 5 stars, N/A, Not found in OCR Data
+Book Review11, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review12, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review13, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Review14, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review15, 4.3 out of 5 stars, N/A, Not found in OCR Data
+Book Review16, 4.7 out of 5 stars, N/A, Not found in OCR Data
+Book Review17, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review18, 4.6 out of 5 stars, N/A, Not found in OCR Data
+Book Review19, 4.7 out of 5 stars, N/A, Not found in OCR Data
+Book Review20, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Price22, 149, N/A, Not found in OCR Data
+Book Price21, 1, N/A, Not found in OCR Data
+Book Review21, 3.0 out of 5 stars, N/A, Not found in OCR Data
+Book Price20, 179, N/A, Not found in OCR Data
+Book Review22, 4.4 out of 5 stars}, N/A, Not found in OCR Data
+Book Review5, 3.9 out of 5 stars, N/A, Not found in OCR Data
+Book Review6, 4.5 out of 5 stars, N/A, Not found in OCR Data
+Book Review3, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Review4, 4.3 out of 5 stars, N/A, Not found in OCR Data
+Book Review1, 3.7 out of 5 stars, N/A, Not found in OCR Data
+Book Review2, 5.0 out of 5 stars, N/A, Not found in OCR Data
+Book Price4, 179, N/A, Not found in OCR Data
+Book Price5, 128, N/A, Not found in OCR Data
+Book Price2, 249, N/A, Not found in OCR Data
+Book Price3, 404, N/A, Not found in OCR Data
+Book Price8, 184, N/A, Not found in OCR Data
+Book Review9, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Price9, 149, N/A, Not found in OCR Data
+Book Price6, 149, N/A, Not found in OCR Data
+Book Review7, 4.4 out of 5 stars, N/A, Not found in OCR Data
+Book Price7, 108, N/A, Not found in OCR Data
+Book Review8, 4.1 out of 5 stars, N/A, Not found in OCR Data
+
+2024-06-20 00:48:26,992 - Compare Data and Generate Report - INFO - Comparison report saved to file: comparison_report.txt
+2024-06-20 00:48:26,992 - Compare Data and Generate Report - INFO - Comparison summary:
+2024-06-20 00:48:26,992 - Compare Data and Generate Report - INFO - Total entries found: 0
+2024-06-20 00:48:26,993 - Compare Data and Generate Report - INFO - Total entries not found: 66
+]]></system-out>
+  </testcase>
+</testsuite>
